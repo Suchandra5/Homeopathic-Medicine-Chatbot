@@ -16,7 +16,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 
 # Load dataset
-file_path = "Homeopathic Chatbot/homeopathic_medicines_dataset_1700.csv"
+file_path = "homeopathic_medicines_dataset_1700.csv"
 
 df = pd.read_csv(file_path)
 
